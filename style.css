@@ -1,0 +1,76 @@
+body {
+    font-family: 'Sono', sans-serif;
+    
+  }
+.contact-description {
+  font-size: 75px;
+}
+h2 {
+  font-size: 35px;
+}
+.contact-info {
+  background-color: #61677A;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+  .page-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 75px;
+    /* border: 3px solid black; */
+    background-image: linear-gradient(rgba(156, 156, 161, 0.811), rgb(243, 239, 239));
+  }
+
+.grid-container {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* border: 3px solid blue; */
+
+}
+.background {
+  background-color:;
+}
+.item-card {
+    border: 3px solid black;
+    border-radius: 10px;
+    /* background-color: light; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+    background-image: url(./assets/images/whtlight\ 2024-02-25\ 172934.png);
+    background-size: contain;
+    /* background-image: linear-gradient(rgb(141, 139, 139), rgb(243, 239, 239)); */
+}
+.item-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.item-pic {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    
+}
+img {
+    height: 400px;
+    width: auto;
+    padding: 10px;
+    
+}
+.item-price {
+    font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px;
+}
